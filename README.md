@@ -10,7 +10,7 @@
     ![](https://hedgedoc.linyz.org/uploads/134ea281-45df-4b31-9085-9b2da049523a.png)
 
 
-### Brief summary of my work
+### Brief Summary of My Work
 - Data Preprocessing
     - Aggregation of features
     - Creation of features
@@ -27,15 +27,15 @@
     scikit_learn==1.2.0
     ```
 
-## Inference -- Reproduce the result
+## Inference -- Reproduce the Result
 - To reproduce the results of the result, please following steps below
+
+### Steps
 - Summary of steps
     1. download necessary files
     2. create virtual environment
     3. install requirements
     4. run inference code
-
-### Detailed Steps
 #### Download necessary files
 1. [model](https://drive.google.com/file/d/1w2nkK2jngo0MQT92QuAgzX3ZN5pjwPpy/view?usp=sharing), download link is also write on the top of README
 2. Kaggle Competition Dataset, you can also get the dataset by accessing [competition page](https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/leaderboard)

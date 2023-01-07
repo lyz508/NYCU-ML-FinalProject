@@ -41,7 +41,7 @@
 2. Kaggle Competition Dataset, you can also get the dataset by accessing [competition page](https://www.kaggle.com/competitions/tabular-playground-series-aug-2022/leaderboard)
 3. Clone the repository with following commands
     ```
-    git clone https://github.com/lyz508/NYCU-ML-FinalProject .
+    git clone https://github.com/lyz508/NYCU-ML-FinalProject
     ```
 4. Put datas under the repository directory, structure should be like:
     ![](https://hedgedoc.linyz.org/uploads/69ef8e27-2f2e-43dd-b63c-83fc8647e2dd.png)

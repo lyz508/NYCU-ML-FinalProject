@@ -71,6 +71,6 @@
     ```
     python3 109550129_Final_inference.py
     ```
-- it should generate `109550129_submission.csv`
+- it should generate `109550129.csv`
 - upload to the competition to check the result
     ![](https://hedgedoc.linyz.org/uploads/d2c672b2-2c69-4230-bbb4-e000d1a06d83.png)

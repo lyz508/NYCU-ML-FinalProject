@@ -34,6 +34,7 @@ def main():
         'm3_missing', 'm5_missing', 
         'measurement_1', 'measurement_2', 'measurement_17'
     ]
+    print("Start...")
     # Init and train model
     lrmodel = LRModel(train, select_feature, configs)
     lrmodel.train(test_data=test)
@@ -42,10 +43,10 @@ def main():
     submission['failure'] = submission['lr0'] * lrmodel.lr_effects[0] + \
         submission['lr1'] * lrmodel.lr_effects[1] + \
         submission['lr2'] * lrmodel.lr_effects[2] +\
-        submission['lr3'] * lrmodel.lr_effects[2]
+        submission['lr3'] * lrmodel.lr_effects[3]
     # write to csv
     submission[['id', 'failure']].to_csv('109550129_submission.csv', index=False)
-
+    print("Success regenerating the results...")
 
 
 

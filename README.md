@@ -5,8 +5,8 @@
 ## Project Introduction
 - This project is aim to solve the above Kaggle competition
 - Score
-    - public leaderboard: 0.59126
-    - private leaderboard: 0.59057
+    - public leaderboard: 0.59057
+    - private leaderboard: 0.59126
     ![](https://hedgedoc.linyz.org/uploads/134ea281-45df-4b31-9085-9b2da049523a.png)
 
 
@@ -15,7 +15,7 @@
     - Aggregation of features
     - Creation of features
 - Model
-    - Using Multiple Linear Regression Model to prevent overfitting
+    - Using Multiple Linear Regression Model to prevent from overfitting
 
 ### Environment
 - python version: `3.6.9`

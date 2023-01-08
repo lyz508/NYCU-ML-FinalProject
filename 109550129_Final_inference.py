@@ -45,7 +45,7 @@ def main():
         submission['lr2'] * lrmodel.lr_effects[2] +\
         submission['lr3'] * lrmodel.lr_effects[3]
     # write to csv
-    submission[['id', 'failure']].to_csv('109550129_submission.csv', index=False)
+    submission[['id', 'failure']].to_csv('109550129.csv', index=False)
     print("Success regenerating the results...")
 
 
